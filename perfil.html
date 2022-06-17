@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Cabezera-->
+
+    <header class="cabeza margin-cabezera">
+        <a class="hypervinculos" href="./Index.html"><p class="clicker">Instagram</p></a>
+        <div class="center">
+            <i class="fa-solid fa-magnifying-glass lupa"></i>
+            <input class="border buscador-principal" type="buscador" placeholder="Buscar">
+        </div>
+        <div class="gap-cabezera">
+            <a href="./Index.html"><i class="fa-solid fa-house iconos-cabezera clicker hypervinculos"></i></a>
+            <i class="fa-brands fa-facebook-messenger iconos-cabezera clicker"></i>
+            <i class="fa-solid fa-heart iconos-cabezera clicker"></i>
+            <a href="./perfil.html"><img class="tamaño-perfil-foto clicker" src="./imagenes/josema.jpg" alt=""></a>
+        </div>
+    </header>
+
+    <main class=" background2 padding-cuerpo">
+        
+        <!--Perfil-->
+
+        <div class="tamaño-perfil gap-img flex-column">
+            <div class="flex caja-perfil">
+                <img class="tamaño-foto-principal" src="./imagenes/josema.jpg" alt="">
+                <div class="flex-colmn caja-datos">
+                    <div class="flex nombre-perfil">
+                        <h1 class="tamaño-nombre">Joaquin</h1>
+                        <button class="enviar-mensaje clicker">Enviar mensaje</button>
+                    </div>
+                    <div class="flex datos-usuario">
+                        <p><b>141</b> publicaciones</p>
+                        <p><b>2,768</b> seguidores</p>
+                        <p> <b>710</b> seguidos</p>
+                    </div>
+                    <div class="flex">
+                        <p>No digas mamadas Mery Jaen</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Menu-->
+
+            <div class="flex contenedor-h1">
+                <a class="hypervinculos h1 line-up-zero tamaño-h1 h1-izquierda" href="./publicaciones.html" target="omega"><h1>PUBLICACIONES</h1></a>
+                <a class="hypervinculos h1 line-up-zero tamaño-h1 h1-centro" href="./reels.html" target="omega"><h1>REELS</h1></a>
+                <a class="hypervinculos h1 line-up-zero tamaño-h1 h1-centro" href="./igtv.html" target="omega"><h1>IGTV</h1></a>
+                <a class="hypervinculos h1 line-up-zero tamaño-h1 h1-centro" href="./guardado.html" target="omega"><h1>GUARDADO</h1></a>
+                <a class="hypervinculos h1 line-up-zero tamaño-h1 h1-derecho" href="./etiquetadas.html" target="omega"><h1>ETIQUETADAS</h1></a>
+            </div>
+            <iframe class="zero" name="omega" src="./publicaciones.html" scrolling="no" frameborder="0"></iframe>
+
+        </div>
+    </main>
+</body>
+
+</html>
